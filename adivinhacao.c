@@ -77,7 +77,7 @@ int main(){
 
     tentativas++;
 
-    double pontosPerdidos = (double)abs((chute - numeroSecreto)) / (double)2;
+    double pontosPerdidos = abs(chute - numeroSecreto) / (double)2;
     pontos = pontos - pontosPerdidos;
  }
 
